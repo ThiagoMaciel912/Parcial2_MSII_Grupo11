@@ -1,4 +1,4 @@
-from funciones.multiplicacioncaceres import multiplicacioncaceres
-def test_multiplicar():
- assert multiplicacioncaceres(3, 4) == 12
- assert multiplicacioncaceres(-2, 5) == -10
+from funciones.multiplicacioncaceres import multiplicacion
+def test_multiplicacion():
+ assert multiplicacion(3, 4) == 12
+ assert multiplicacion(-2, 5) == -10
