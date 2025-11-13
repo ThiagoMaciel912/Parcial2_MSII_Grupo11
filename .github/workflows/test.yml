@@ -19,5 +19,5 @@ jobs:
           pip install pytest
       - name: Ejecutar pruebas
         run: |
-        python -m pytest -v
+          python -m pytest -v
 
